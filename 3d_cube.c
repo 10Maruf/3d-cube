@@ -56,7 +56,7 @@ void calculateForSurface(float cubeX, float cubeY, float cubeZ, int ch) {
 }
 
 int main() {
-  system("color 0a");
+  system("color b");
   printf("\x1b[2J");
   while (1) {
     memset(buffer, backgroundASCIICode, width * height);
